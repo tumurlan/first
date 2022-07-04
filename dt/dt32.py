@@ -1,0 +1,5 @@
+a = input("введите текст = ")
+print(a.split(" "))
+print(len(a) // 2)
+print(a[:len(a) // 2])
+print(a[len(a) // 2::-1])
